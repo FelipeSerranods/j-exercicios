@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de document</title>
+</head>
+<body>
+    <script>
+        /*var nome = prompt('Qual o seu nome ?')
+        document.write(`Ola,${nome}.Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiusculas fica ${nome.toUpperCase()}<br>`)
+        document.write(`Seu nome em minusculas fica ${nome.toLowerCase()}`)*/
+       var n1 = 1535.4
+       /*
+       n1 = n1.toFixed(2) // 2 casas decimais
+       n1 = n1.replace('.',',') // Trocar '.' por ','
+       */
+       document.write(n1.toLocaleString('pt-br',{style:'currency',currency:'BRL'})) 
+       // Formatação Localizada R$ 00,00 Brasil
+    </script>
+</body>
+</html>
