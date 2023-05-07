@@ -1,2 +1,2 @@
-# j-exercicios
- Javascript (Curso em Video)
+# Javascript
+ Curso de javascript do Curso em Video
